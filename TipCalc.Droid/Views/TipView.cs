@@ -7,7 +7,7 @@ using TipCalc.Core.ViewModels;
 namespace TipCalc.Droid.Views
 {
     [Activity(Label = "Tip Calculator", MainLauncher = true)]
-    public class TipeView : MvxActivity<TipViewModel>
+    public class TipView : MvxActivity<TipViewModel>
     {
         protected override void OnCreate(Bundle bundle)
         {
